@@ -1,0 +1,57 @@
+body{
+	background: url('giphy.webp') no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100vh;
+}
+
+div{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	background: #a29e9f;
+}
+
+h2{
+	text-align: center;
+    margin: 0 0 15px 0px;
+    color: #F5F5F5;
+}
+
+a{
+	position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	background: #2e3869;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.text{
+	font-size: 20px;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #5a5a5a;
+}
+
+.bt{
+	font-size: 15px;
+    font-weight: 600;
+	padding: 5px 0;
+	margin-top: 20px;
+	color: #FFF;
+    background: #E91E63;
+    border: 0px;
+    outline: none;
+}
